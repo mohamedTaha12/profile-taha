@@ -1,0 +1,97 @@
+.main {
+    background-color: #f8f8f8;
+}
+
+.card {
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer !important;
+    // background-color: #ffc107 !important;
+    transform: scale(1.08);
+
+    // i {
+    //     color: #fff !important;
+    // }
+}
+
+
+.card-deck {
+    margin-top: 10rem;
+}
+
+.card-home {
+    background-image: url("https://cdn.shopify.com/s/files/1/0408/5792/7834/files/redux-bg-A-4_522x.jpg") !important;
+    color: white !important;
+}
+
+.cards-icons {
+    background: -webkit-linear-gradient(#5ea7eb, #438dd1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: -10%;
+}
+
+.cards-equipos {
+    // background-image: url("https://cdn.shopify.com/s/files/1/0408/5792/7834/files/Better_400x.jpg") !important;
+    // color: white !important;
+    border: 1px solid #ffc107;
+}
+
+.icons {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 17px;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-top: 5px solid;
+    border-radius: 33%;
+    font-size: 40px;
+}
+
+.custom__button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -33px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .services {
+        text-align: center;
+    }
+
+    .icons {
+        left: 23% !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .icons {
+        left: 12% !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .icons {
+        left: 16% !important;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .services {
+        text-align: center;
+    }
+
+    .icons {
+        left: 18.5% !important;
+    }
+}

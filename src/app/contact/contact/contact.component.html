@@ -1,0 +1,94 @@
+<div class="main">
+    <div class="contact container">
+        <div class="row d-flex">
+            <div class="col-md-6">
+                <div class="container py-5 my-5 main-info">
+                    <div class="row">
+                        <div class="col-md-12 title-info py-3">
+                            <h2>Taha Hamed</h2>
+                            <p>Front-End Developer</p>
+                        </div>
+                    </div>
+                    <div class="icons-info row justify-content-center">
+                        <a class="col-2"
+                            (click)="goToLink('https://web.facebook.com/people/MohaMmed-TaHa/pfbid0ZFfZQvcxgyQCwJKR5B4VJyqoT6q9mjnGEE3oNSbtyYfNaxsYqCLMWqGRzgFiNLP9l/?mibextid=LQQJ4d')">
+                            <i class="bi bi-facebook" style="color: #0077b5;"></i></a>
+                        <a class="col-2" (click)="goToLink('https://wa.me/+201118004264')"> <i class="bi bi-whatsapp"
+                                style="color: #3fbe4f;"></i></a>
+                        <a class="col-2" (click)="goToLink('https://github.com/mohamedTaha12')"> <i class="bi bi-github"
+                                style="color: black;"></i></a>
+                        <a class="col-2" (click)="goToLink('https://www.linkedin.com/in/mohamed-taha-7b480926b')"> <i
+                                class="bi bi-linkedin" style="color: #0b63bd;"></i></a>
+                    </div>
+                    <div class="row contact-sec">
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="icon-info"> <i style="color: #ef2e0c;font-size: 23px;" class="bi bi-phone"></i>
+                            </div>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:{{+201144192978}}"> +201144192978 </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="icon-info"> <i style="color: #ef2e0c;font-size: 23px;"
+                                    class="bi bi-envelope-open"></i> </div>
+                            <div>
+                                <h5>Email</h5>
+                                <a (click)="goToLink('mt468540@gmail.com')">mt468540@gmail.com</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="icon-info"><i style="color: #ef2e0c;font-size: 23px;" class="bi bi-geo-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Location</h5>
+                                <span>maadi, cairo</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- <div class="col-md-12 btn-contain">
+                            <button class="btn" (click)="openCV()">Veiw my CV</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 py-5">
+                <h1>Contact Form</h1>
+                <form id="contact_form" name="contact_form" method="post">
+                    <div class="mb-5 row">
+                        <div class="col">
+                            <label>First Name</label>
+                            <input type="text" required maxlength="50" class="form-control" id="first_name"
+                                name="first_name">
+                        </div>
+                        <div class="col">
+                            <label>Last Name</label>
+                            <input type="text" required maxlength="50" class="form-control" id="last_name"
+                                name="last_name">
+                        </div>
+                    </div>
+                    <div class="mb-5 row">
+                        <div class="col">
+                            <label for="email_addr">Email address</label>
+                            <input type="email" required maxlength="50" class="form-control" id="email_addr"
+                                name="email" placeholder="name@example.com">
+                        </div>
+                        <div class="col">
+                            <label for="phone_input">Phone</label>
+                            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                                placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning px-4 btn-lg">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

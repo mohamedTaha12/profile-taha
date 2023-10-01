@@ -1,0 +1,13 @@
+ul {
+    li {
+        cursor: pointer;
+    }
+}
+
+.active {
+    color: #ffc107 !important;
+}
+
+.navbar-nav {
+    transition: all 1s ease-in-out !important;
+}

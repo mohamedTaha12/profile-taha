@@ -1,0 +1,23 @@
+.main {
+    background-color: #f8f8f8;
+}
+
+@media only screen and (max-width: 991px) {
+    .home {
+        text-align: center;
+    }
+
+    .home-btns {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home {
+        text-align: center;
+    }
+
+    .home-btns {
+        justify-content: center !important;
+    }
+}

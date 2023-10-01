@@ -1,0 +1,31 @@
+.main {
+    background-color: #f8f8f8;
+}
+
+.card {
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer !important;
+    // background-color: #ffc107 !important;
+    transform: scale(1.08);
+
+    // i {
+    //     color: #fff !important;
+    // }
+}
+
+@media only screen and (max-width: 991px) {
+    .services {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .services {
+        text-align: center;
+    }
+
+}
